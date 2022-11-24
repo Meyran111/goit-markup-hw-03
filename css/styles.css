@@ -286,12 +286,17 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-item {
-  width: calc((100% - 60) / 3);
-}
+
 .portfolio-item {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.portfolio-container {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+
+  padding-left: 24px;
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
@@ -305,6 +310,7 @@ header {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
+  margin-bottom: 4px;
 }
 .portfolio-text {
   font-size: 16px;
