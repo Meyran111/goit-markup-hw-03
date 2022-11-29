@@ -60,10 +60,6 @@ img {
 .header-link:focus {
   color: var(--accent-color);
 }
-.active:visited{
-color: var(--accent-color);
-}
-
 .text {
   font-size: 14px;
   line-height: 1.71;
@@ -133,7 +129,9 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
+.current {
+  color: var(--accent-color);
+}
 .adress-list {
   display: flex;
   margin-left: auto;
